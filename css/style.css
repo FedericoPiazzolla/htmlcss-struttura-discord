@@ -117,8 +117,38 @@ margin: 2rem auto;
 .cf1 {
   background-color: #F08080;
   flex-grow: 2;
+  border: 2px dashed black;
 }
 
 .cf2{
   flex-grow: 1;
+  border: 2px dashed white;
+}
+
+/* INFO FOOTER */
+.bg-darkblue2 {
+  background-color: #23272A;
+}
+
+.container-footer{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #7FFFD4;
+  padding: 40px 0;
+}
+
+.info-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-footer{
+  background-color: #FFB6C1;
+  padding: .7rem;
+}
+
+.button-footer{
+  background-color: #FFB6C1;
+  padding: .7rem;
 }
