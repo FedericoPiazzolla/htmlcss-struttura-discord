@@ -50,6 +50,8 @@ header {
 }
 
 .login {
+  display: flex;
+  flex-direction: row-reverse;
   flex-grow: 1;
 }
 
