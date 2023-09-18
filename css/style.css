@@ -94,7 +94,31 @@ margin: 2rem auto;
 
 .square{
   background-color: #228B22;
-  min-height: 800px;
+  height: 50rem;
+  
 }
 
 /* FOOTER */
+.bg-darkblue{
+  background-color: #23272A;
+  min-height: 500px;
+}
+.footer-wrap {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.col-footer {
+  background-color: #20B2AA;
+  min-height: 500px;
+}
+
+.cf1 {
+  background-color: #F08080;
+  flex-grow: 2;
+}
+
+.cf2{
+  flex-grow: 1;
+}
