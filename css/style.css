@@ -44,7 +44,10 @@ header {
 }
 
 .link-list {
-  margin: 0 .5rem;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   flex-grow: 2;
 }
 
@@ -54,27 +57,32 @@ header {
 }
 
 /* MAIN */
+
+/* HERO */
 .blue-bg {
-  min-height: 500px;
+  padding: 6rem 0;
+  /* debug */
   background-color: #00008B;
-  justify-content: center;
-  align-items: center;
 }
 
 .fucsia-rect {
+  width: 60%;
+  margin: 0 auto;
+  /* debug */
+  min-height: 400px; 
   background-color: #EE82EE;
-  height: 400px;
-  width: 900px;
 }
 
+/* WHITE-BG */
 .wrap{
-margin: 2rem auto;
+padding: 3rem 0;
 }
 
 .white-bg {
   padding: 1rem 0;
 }
 
+/* 3-SECTION */
 .col1 {
   background-color: #1E90FF;
   min-height: 500px;
@@ -99,54 +107,40 @@ margin: 2rem auto;
 }
 
 /* FOOTER */
-.bg-darkblue{
-  background-color: #23272A;
-  min-height: 500px;
+footer {
+  /* Debug */
+  background-color: darkslategrey;
 }
-.footer-wrap {
+
+.main-column {
+  width: 30%;
+  /* Debug */
+  background-color: lightcyan;
+  min-height: 400px;
+}
+
+.menu-column {
+  width: 70%;
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  /* Debug */
+  background-color: lightpink;
+  min-height: 400px;
 }
 
-.col-footer {
-  background-color: #20B2AA;
-  min-height: 500px;
+.footer-menu {
+  width: calc(100% / 4);
+  /* Debug */
+  border: 1px dashed gray;
+  min-height: 400px;
 }
 
-.cf1 {
-  background-color: #F08080;
-  flex-grow: 2;
-  border: 2px dashed black;
+.footer-bottom {
+ /* Debug */
+ border-top: 1px solid white;
 }
 
-.cf2{
-  flex-grow: 1;
-  border: 2px dashed white;
-}
-
-/* INFO FOOTER */
-.bg-darkblue2 {
-  background-color: #23272A;
-}
-
-.bg-footer-button{
-  background-color: #7FFFD4;
-  padding: 2rem 0;
-}
-
-.info-footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.logo-footer{
-  background-color: #FFB6C1;
-  padding: .7rem;
-}
-
-.button-footer{
-  background-color: #FFB6C1;
-  padding: .7rem;
+.footer-bottom .container {
+  padding: 1rem 0;
+  /* Debug */
+  background-color: lightblue;
 }
